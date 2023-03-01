@@ -104,7 +104,7 @@ spanTotalS.textContent=`$ ${(parseFloat(spanVal100.textContent)+parseFloat(spanV
     } else {
         let err=document.createElement("div");
 err.innerHTML=`<div class="alert alert-danger" role="alert">
-Ingrese un valor valido
+Ingrese su Salario básico¡ 
 </div>`
         divError.appendChild(err)
 
