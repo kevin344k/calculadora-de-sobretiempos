@@ -125,8 +125,8 @@ btnLimpiar.addEventListener("click",()=>{
     inputCant25.value=""
     inputCant50.value=""
     inputCant100.value=""
-    spanVal25.textContent=0.00
-    spanVal50.textContent=0.00
-    spanVal100.textContent=0.00
-    spanTotalS.textContent=0.00
+    spanVal25.textContent="0.00"
+    spanVal50.textContent="0.00"
+    spanVal100.textContent="0.00"
+    spanTotalS.textContent="0.00"
 })
