@@ -129,4 +129,6 @@ btnLimpiar.addEventListener("click",()=>{
     spanVal50.textContent="0.00"
     spanVal100.textContent="0.00"
     spanTotalS.textContent="0.00"
+  divPrecioxHora.removeChild(preciosxHora)
+  
 })
