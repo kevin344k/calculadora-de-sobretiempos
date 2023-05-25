@@ -10,6 +10,7 @@
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+  <link rel="shortcut icon" href="#">
 </head>
 
 <body>
@@ -24,7 +25,7 @@
 
                 <div class="card-body px-0" id="cont1">
                     <div class="container ">
-                        <p class=" h4 pb-2 mb-4 text-danger border-bottom border-danger">Calculadora de Sobretiempos</p>
+                        <p class=" h4 pb-2 mb-4 text-danger border-bottom border-danger">Calculadora de Sobretiempos v2</p>
                     </div>
                     <div class="container text-center">
                         <div class="col ">
@@ -60,9 +61,14 @@
                         <button  id="btnCalcular" class="btn btn-success px-4">Calcular</button>
                         <div id="divError"> </div>
                     </div>
-                    <div class="container align-middle">
+    <span class="text-white">Detalle de las horas</span>                                                    
+<div  id="divTablaHoras" class="container align-middle">
+
+</div>
+
+<div class="container align-middle">
                         <div class="col">
-                            <p class=" mt-3 text-white">Cantidad de horas:</p>
+                            <p class=" mt-3 text-white">Total de horas:</p>
                             <div class="input-group mb-3">
                                 <span class="input-group-text">al 25%</span>
                                 <input id="inputCant25" type="text" class="form-control" placeholder="" aria-label="Username">
@@ -84,15 +90,12 @@
                                 <span id="spanVal100" class="input-group-text">0.00</span>
                             </div>
                         </div>
-
-                    </div>
-
-
-                    <div class="container d-flex justify-content-end">
+    <div class="container d-flex justify-content-end mb-2">
 
                         <p class="text-end text-white my-auto"">Valor del sobretiempo : </p>
                             <span id="spanTotalS" class=" btn btn-primary mx-2">0.00</span>
 
+                    </div>
                     </div>
                     <div class="container d-flex">
                       <div class="container d-flex justify-content-start">
