@@ -71,7 +71,7 @@ let CantHorasAl50=(inputNochesLab.value*jornadaNocheX50+inputDiasLab.value*jorna
 let CantHorasAl100=inputNochesLab.value*jornadaNochex100
 //al 25%
 inputCant25.value=CantHorasAl25
-spanVal25.textContent=(CantHorasAl25*preHoraAl25).toFixed(2)
+spanVal25.textContent=(CantHorasAl25*(preHoraAl25-preHoraNormal)).toFixed(2)
 
 //al 50%
 
