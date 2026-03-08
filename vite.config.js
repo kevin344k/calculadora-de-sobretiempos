@@ -6,5 +6,5 @@ export default defineConfig({
   server: {
     port: 3000,
     open: true
-  },base:"https://kevin344k.github.io/calculadora-de-sobretiempos"
+  }
 })
